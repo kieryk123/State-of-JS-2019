@@ -110,7 +110,7 @@ toolPageTemplate:
         #       toolIds: ${toolIds}
         - id: '${id}_recommended_resources'
           template: recommendedResourcesTemplate
-          variables: 
+          variables:
             sponsors: ${sponsors}
 
 # Other Tools (/front-end/others, /data-layer/others, etc.)
@@ -125,5 +125,5 @@ categoryOtherToolsPageTemplate:
               sectionId: ${sectionId}
         - id: '${id}_recommended_resources'
           template: recommendedResourcesTemplate
-          variables: 
+          variables:
             sponsors: ${sponsors}
